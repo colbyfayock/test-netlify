@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "ls -la && cd ../ && ls -la && next build",
+    "build": "ls -la && cd ../ && ls -la && ls -la cache && ls -la repo && ls -la .yarn_cache next build",
     "start": "next start"
   },
   "dependencies": {
