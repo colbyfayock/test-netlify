@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "cd ../plugins/netlify-plugin-visual-diff && npm i && cd ../../test-netlify && next build",
+    "build": "ls -la && cd ../ && ls -la && next build",
     "start": "next start"
   },
   "dependencies": {
